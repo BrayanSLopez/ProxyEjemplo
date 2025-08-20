@@ -1,0 +1,4 @@
+compilar:
+javac -d out $(find . -name "*.java")
+Ejecutar:
+java -cp out proxy.Main
